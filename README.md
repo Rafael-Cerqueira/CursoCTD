@@ -8,4 +8,4 @@
   <li> Introdução a Informática v2.0 </li>
 </ul>
 
-<a href= "https://www.linkedin.com/in/rafael-cerqueira-247515160/" target="_blank">Meu Linkedin<\a>
+<a href= "https://www.linkedin.com/in/rafael-cerqueira-247515160/" target="_blank"> Meu Linkedin </a>

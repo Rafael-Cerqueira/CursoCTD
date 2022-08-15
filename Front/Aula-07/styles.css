@@ -1,0 +1,32 @@
+body {
+
+    background-color:#b8b4b4e0;
+}
+
+.primary-title {
+    color:#5e5ec9;
+    font-size:34px;
+}
+
+.job-title {
+    background-color: #5e5ec9;
+    color: white;
+}
+
+.high {
+    color:#5e5ec9;
+    font-size:28px;
+}
+
+.contact-title {
+    color:#1990a5
+}
+
+.footer-box {
+    background-color:#5ec979
+
+}
+
+.footer-box li {
+    color: white;
+}

@@ -1,0 +1,11 @@
+git init = criar um novo repositorio
+git clone = clonar um repositorio
+git remote add origin = add um caminho de repositorio remoto
+git push = Subir arquivos para o repositorio remoto
+git pull = baixar arquivos do repositorio remoto
+git add = add arquivos ao repositorio
+git commit -m = Cria pontos de versões do arquivos, com user, data e alterações
+git branch = cria uma nova branch
+git checkout = muda de branch
+git checkout -b = cria e vai para a branch 
+

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body {
+    background-color: #131313;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.media-picture {
+    height: 400px;
+    background-image: url('https://www.filmandtvnow.com/wp-content/uploads/2016/07/mrrobot-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.review-score {
+    color: white;
+    padding: 12px;
+}
+
+h2 {
+    color: steelblue;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto';
+}
+
+a {
+    color: yellow;
+}

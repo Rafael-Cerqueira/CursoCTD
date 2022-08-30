@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 60px;
+}
+
+.main-content-card1{
+    height: 100vh;
+}
+.hero-card1{
+    width: 400px;
+    background-color: rgb(193, 151, 37);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.hero-card1 .favorite-icon {
+    width: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.hero-card1 .background-card1{
+    width: 100%;
+
+}
+
+.hero-card1 .profile-img1{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.hero-card1 .titulo-card1{
+
+}
+

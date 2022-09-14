@@ -10,6 +10,8 @@ body {
 
 .main-content-card1{
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
 }
 .hero-card1{
     width: 400px;

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+header{
+	position: fixed;
+    background: rgb(1, 10, 0);
+    padding: 10px 0;
+	height: 100px;
+	width: 100%;
+}
+
+.caixa{
+	position: relative;
+	width: 1220px;
+	margin: 0 auto;
+}
+
+nav{
+	
+	position: absolute;
+	right: 0;
+	top: 45px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo-principal{
+	position: absolute;
+	top: 10px;
+	width: 70px;
+}
+
+nav li{
+	display: inline;
+	margin-left: 15px
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #ffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.banner-main{
+	/* position: relative; */
+	width: 100%;
+}
+
+body{
+background-color: black;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+}
+
+.banner-main {
+	border-bottom: 90px;
+}
+
+.curiosidade-main{
+	margin-top: 60px
+}
+
+main h2{
+	text-transform: uppercase;
+	color: #ffff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero-card{
+    width: 30%;
+    background-color: rgb(62, 85, 47);
+    border-radius: 12px;
+    overflow: hidden;
+    display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 80px 20px;
+
+}
+
+.hero-card .background-card1{
+    width: 100%;
+
+}
+
+.hero-card .profile-img1{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.hero-card h1{
+	font-family: 'Bebas Neue', cursive;
+}
+
+.hero-card p{
+	padding: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+div video{
+	margin-left: 320px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+footer{
+	display:flex;
+	justify-content: space-between;
+	height: 46vh;
+	background: url(./imgs/rodape.jpg);
+	align-items: center;
+	width: 100%;
+}
+
+.logo-rodape{
+	width: 250px;
+	position: relative;
+	top: 40px;
+	margin-left: 1150px;
+}
+
+.redes-sociais{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 20%;
+	margin-left: 550px;
+}
+
+.logo-git-img{
+	width: 80px;
+	position: relative;
+	bottom: 100px;
+}
+
+.logo-linkedin-img{
+	width: 80px;
+	position: relative;
+	bottom: 100px;
+}

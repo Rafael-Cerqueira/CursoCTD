@@ -29,3 +29,9 @@ function menuMicroondas(comida, tempo) {
     } 
 }
 console.log(menuMicroondas('2', 17));
+
+// Grupo 3
+
+// André Paulo
+// Caue
+// Rafael Cerqueira

@@ -116,19 +116,19 @@ export function competicao(p1, p2, p3){
     let participante3 = p3;
 
     if(pontuacaoMaior(participante1) > pontuacaoMaior(participante2) && pontuacaoMaior(participante1) > pontuacaoMaior(participante3)){
-        console.log("A maior nota é", pontuacaoMaior(participante1))
+        console.log("A maior nota é", pontuacaoMaior(participante1), "do primeiro participante")
     }else if(pontuacaoMaior(participante2) > pontuacaoMaior(participante1) && pontuacaoMaior(participante2) > pontuacaoMaior(participante3)){
-        console.log("A maior nota é", pontuacaoMaior(participante2))
+        console.log("A maior nota é", pontuacaoMaior(participante2), "do segundo participante")
     }else{
-        console.log("A maior nota é", pontuacaoMaior(participante3))
+        console.log("A maior nota é", pontuacaoMaior(participante3), "do terceiro participante")
     }
 
     if(pontuacaoMedia(participante1) > pontuacaoMedia(participante2) && pontuacaoMedia(participante1) > pontuacaoMedia(participante3)){
-        console.log("A maior media é: ", pontuacaoMedia(participante1))
+        console.log("A maior media é: ", pontuacaoMedia(participante1), "do primeiro participante")
     }else if(pontuacaoMedia(participante2) > pontuacaoMedia(participante1) && pontuacaoMedia(participante2) > pontuacaoMedia(participante3)){
-        console.log("A maior media é: ", pontuacaoMedia(participante2))
+        console.log("A maior media é: ", pontuacaoMedia(participante2), "do segundo participante")
     }else{
-        console.log("A maior media é: ", pontuacaoMedia(participante3))
+        console.log("A maior media é: ", pontuacaoMedia(participante3), "do terceiro participante")
     }
 
 }

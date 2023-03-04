@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.main-header{
+    background-color: black;
+    padding: 24px 48px;
+}
+
+.main-header button{
+    display: none;
+}
+
+.main-header ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    transition: .2s;
+}
+
+.main-header ul li{
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+
+    .main-header button{
+        display: block;
+}
+
+    .main-header ul {
+        width: 300px;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        flex-direction: column;
+        background-color: #242424;
+        padding: 24px;
+        height: 100vh;
+    }
+
+    .main-header ul.opened{
+        left:0;
+    }
+}
+

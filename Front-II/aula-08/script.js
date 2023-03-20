@@ -16,8 +16,16 @@ function validarUrl(url){
 }
 
 function validarTitle(titulo){
+
+    if(titulo.length < 10){
+        buttonRef.disabled = true
+    }else{
+        userData.title = titulo
+        buttonRef.disabled = false
+
+    }
     
-    userData.title = titulo
+    
 }
 
 function login(event){
